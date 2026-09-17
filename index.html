@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DEER EDIT — AI Photo & Video Editor</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="brand"><span class="deer">🦌</span><span>DEER EDIT</span></div>
+  <nav><a href="#features">Features</a><a href="#templates">Templates</a><a href="#pricing">Premium</a></nav>
+  <a class="btn small" href="#download">Download</a>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-copy">
+    <span class="pill">AI PHOTO + VIDEO EDITOR</span>
+    <h1>Edit your world.<br><span>Make it yours.</span></h1>
+    <p>Fast, lightweight editing with AI tools, templates, effects and music — all in one place.</p>
+    <div class="actions"><a class="btn" href="#download">Download DEER EDIT</a><a class="btn ghost" href="#pricing">View Premium</a></div>
+    <div class="mini">Android • Lightweight • HD Export</div>
+  </div>
+  <div class="phone">
+    <div class="screen">
+      <div class="screen-top">DEER EDIT <span>✦</span></div>
+      <div class="welcome">What will you<br><b>create today?</b></div>
+      <div class="cards"><div>🎬<b>Video</b></div><div>🖼️<b>Photo</b></div><div>🤖<b>AI Create</b></div><div>✨<b>Templates</b></div></div>
+      <div class="promo">AI MAGIC<br><strong>Turn ideas into edits</strong><button>Try AI →</button></div>
+    </div>
+  </div>
+</section>
+
+<section id="features" class="section">
+  <div class="heading"><span class="pill">FEATURES</span><h2>Everything you need to create.</h2></div>
+  <div class="grid">
+    <article><b>🤖 AI Create</b><p>Prompt-to-image, image-to-video and smart editing tools.</p></article>
+    <article><b>🎬 Video Editor</b><p>Trim, merge, speed, transitions, captions, music and effects.</p></article>
+    <article><b>🖼️ Photo Editor</b><p>Enhance, remove backgrounds, retouch and apply creative effects.</p></article>
+    <article><b>🎨 Templates</b><p>Trending Reel, Romantic, Attitude, Birthday, Wedding and more.</p></article>
+    <article><b>🎵 Music & Beat</b><p>Add audio, SFX and sync edits to the beat.</p></article>
+    <article><b>📱 Scanner</b><p>Quick QR/barcode scanning built into the app.</p></article>
+  </div>
+</section>
+
+<section id="templates" class="section dark">
+  <div class="heading"><span class="pill">TEMPLATES</span><h2>Pick a vibe. Start creating.</h2></div>
+  <div class="chips"><span>Trending Reel</span><span>Romantic</span><span>Attitude</span><span>Music / Beat</span><span>Birthday</span><span>Wedding</span><span>Sad</span><span>Motivation</span><span>Cinematic</span></div>
+</section>
+
+<section id="pricing" class="section">
+  <div class="heading"><span class="pill">PREMIUM</span><h2>Simple plans. No confusing pricing.</h2></div>
+  <div class="pricing">
+    <article class="plan"><h3>Monthly</h3><div class="price">₹49<span>/month</span></div><ul><li>Premium templates</li><li>AI photo tools</li><li>HD export</li><li>No watermark</li></ul><button onclick="pay('Monthly','₹49')">Choose plan</button></article>
+    <article class="plan featured"><div class="best">POPULAR</div><h3>6 Months</h3><div class="price">₹249<span>/6 months</span></div><ul><li>Everything in Monthly</li><li>AI image-to-video</li><li>Premium effects & music</li><li>Reduced ads</li></ul><button onclick="pay('6 Months','₹249')">Choose plan</button></article>
+    <article class="plan"><h3>Yearly</h3><div class="price">₹499<span>/year</span></div><ul><li>Everything in Premium</li><li>AI video tools</li><li>Cloud projects</li><li>No watermark</li></ul><button onclick="pay('Yearly','₹499')">Choose plan</button></article>
+  </div>
+  <p class="note">Payment demo only. Real Razorpay checkout will be connected after the merchant account and server credentials are set up.</p>
+</section>
+
+<section id="download" class="download">
+  <div><span class="pill">GET THE APP</span><h2>DEER EDIT is coming to Android.</h2><p>The final APK download button will point to our official DEER EDIT download server.</p></div>
+  <button class="btn" onclick="alert('APK download will be connected after the final Android build is ready.')">Download APK</button>
+</section>
+</main>
+
+<footer><div class="brand">🦌 DEER EDIT</div><p>© 2026 DEER EDIT. All rights reserved.</p></footer>
+<script>
+function pay(plan, price){
+  alert(plan + ' selected (' + price + '). Real Razorpay checkout will open here after server integration.');
+}
+</script>
+</body>
+</html>
